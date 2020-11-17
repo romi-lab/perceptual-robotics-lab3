@@ -1,4 +1,4 @@
-# Perceptual Robot Lab3
+# Perceptual Robotics Lab3
 In this lab, you will be learning 
 
 * Self-localisation and mapping (SLAM)
