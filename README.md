@@ -54,7 +54,7 @@ Then run the potential field launch file:
 
 ```roslaunch xtark_ctl potentialfieldcar.launch```
 
-In the computer, execute sendmsg.py:
+In the computer, execute sendmsg.py to get the position of the car, goal and obstacle:
 
 ```python sendmsg.py```
 
