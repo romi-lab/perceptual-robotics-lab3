@@ -8,7 +8,7 @@ In this lab, you will be learning
 
 First, run the slam package
 
-```roslaunch xstark_nav xtarlk_slam.launch slam_methods:frontier```
+```roslaunch xtark_nav xtark_slam.launch slam_methods:frontier```
 
 Then, visulaise the result :
 
