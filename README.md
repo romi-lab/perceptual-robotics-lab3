@@ -46,7 +46,7 @@ You can then start to explore the environment.
 Now, close all the terimals ```ctrl + C``` and we will begin a new experiment. In this part, the car will reach the goal while avoiding the obstacles in between.
 We use three AR markers to represent the car, the goal and an obstacle repectively.
 
-
+<img src="https://github.com/romi-lab/perceptual-robotics-lab3/blob/main/pictures/pf_setup.png" width="450" alt="">
 
 First, you need to launch the drvier in the car:
 
