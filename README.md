@@ -46,6 +46,8 @@ You can then start to explore the environment.
 Now, close all the terimals ```ctrl + C``` and we will begin a new experiment. In this part, the car will reach the goal while avoiding the obstacles in between.
 We use three AR markers to represent the car, the goal and an obstacle repectively.
 
+
+
 First, you need to launch the drvier in the car:
 
 ```roslaunch xtark_driver xtark_driver.launch```
