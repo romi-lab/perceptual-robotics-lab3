@@ -8,19 +8,17 @@ In this lab, you will be learning
 
 First, run the slam package
 
-```roslaunch xtark_nav xtark_slam.launch slam_methods:frontier```
+```roslaunch xtark_nav xtark_slam.launch slam_methods:=frontier```
 
 Then, visulaise the result :
 
 ```rosrun rviz rviz```
 
+You need to load the configuration file. In rviz, select open config and find ```xtark_mapping.rviz```
+
 Move the robot using any of the following three methods for mapping and navigation:
 
 #### 1.Keyborad control
-
-Connect to the driver
-
-```roslaunch xtark_driver xtark_driver.launch```
 
 In a new terminal, run the keyboard control node
 
@@ -43,7 +41,8 @@ You can then start to explore the environment.
 
 ## Part II: Potential field
 
-Now, close all the terimals ```ctrl + C``` and we will begin a new experiment. In this part, the car will reach the goal while avoiding the obstacles in between.
+Now, close all the terimals using ```ctrl + C``` and we will begin a new experiment.
+In this part, the car will reach the goal while avoiding the obstacles in between.
 We use three AR markers to represent the car, the goal and an obstacle repectively.
 
 <img src="https://github.com/romi-lab/perceptual-robotics-lab3/blob/main/pictures/pf_setup.jpg" width="450" alt="">
@@ -52,12 +51,13 @@ To do this, you first need to launch the drvier in the car:
 
 ```roslaunch xtark_driver xtark_driver.launch```
 
-Then run the potential field launch file:
-
-```roslaunch xtark_ctl potentialfieldcar.launch```
-
-In the computer, execute sendmsg.py to get the position of the car, goal and obstacle:
+Then, switch to the computer, execute sendmsg.py to get the position of the car, goal and obstacle:
 
 ```python sendmsg.py```
 
-After the car received the command, press anykey to plan potential field.
+After all the markers are detected (the position array appeared in terminal), run the potential field launch file:
+
+```roslaunch xtark_ctl potentialfieldcar.launch```
+
+The newly launched file will receive information form sendmsg.py.
+Now you can press any key to start the planning of potential field.
