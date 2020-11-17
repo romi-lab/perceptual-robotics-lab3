@@ -1,10 +1,10 @@
 # Perceptual Robotics Lab3
 In this lab, you will be learning 
 
-* Self-localisation and mapping (SLAM)
+* Simultaneous localization and mapping (SLAM)
 * Potential field
 
-## Part I: Self-localisation and mapping (SLAM)
+## Part I: Simultaneous localization and mapping (SLAM)
 
 First, run the slam package
 
