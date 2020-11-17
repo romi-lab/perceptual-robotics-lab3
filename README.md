@@ -26,15 +26,15 @@ In a new terminal, run the keyboard control node
 
 The terminal(left) and control(control) are like this:
 
-<img src="https://github.com/romi-lab/perceptual-robotics-lab3/blob/main/pictures/keyboard_terminal.png" width="400" alt=""> <img src="https://github.com/romi-lab/perceptual-robotics-lab3/blob/main/pictures/keyboard.png" width="400" alt=""> 
+<img src="pictures/keyboard_terminal.png" width="400" alt=""> <img src="pictures/keyboard.png" width="400" alt=""> 
 
 #### 2.Using Nav goal in Rviz
 
-<img src="https://github.com/romi-lab/perceptual-robotics-lab3/blob/main/pictures/nav_goal.png" width="450" alt="">
+<img src="pictures/nav_goal.png" width="450" alt="">
 
 #### 3.Set a region of interest using Publish Point in Rviz
 
-<img src="https://github.com/romi-lab/perceptual-robotics-lab3/blob/main/pictures/publish_point.png" width="450" alt="">
+<img src="pictures/publish_point.png" width="450" alt="">
 
 You can then start to explore the environment. 
 
@@ -45,7 +45,7 @@ Now, close all the terimals using ```ctrl + C``` and we will begin a new experim
 In this part, the car will reach the goal while avoiding the obstacles in between.
 We use three AR markers to represent the car, the goal and an obstacle repectively.
 
-<img src="https://github.com/romi-lab/perceptual-robotics-lab3/blob/main/pictures/pf_setup.jpg" width="450" alt="">
+<img src="pictures/pf_setup.jpg" width="450" alt="">
 
 To do this, you first need to launch the drvier in the car:
 
